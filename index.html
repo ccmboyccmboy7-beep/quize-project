@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css">
+   
+    
+    <script src="/script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="main"
+    >
+      <div id="start-screen" class="screen active">
+        <h1>Quiz time!</h1>
+        <p>aqoontada tijaabi</p>
+        <button id="start-btn">start Quize</button>
+      </div>
+      <!-- screenka sualaha -->
+      <div id="quize- screen" class="screen">
+        <div class="quize-header">
+          <h2 id="question-text">qutions</h2>
+          <div class="quize-info">
+            <p>
+              questions <span id="current-qusetions">1</span> <span>5</span>
+            </p>
+            <p>score: <span id="score">0</span></p>
+          </div>
+        </div>
+        <!-- jawabaha suaalaha containerka lagaliyay -->
+        <div id="answers-container" class="answers-container">
+          <!-- jawabaha javascript ayaa kasoo galina hadhow insha allah -->
+        </div>
+      </div>
+
+      <!-- natijada screen kaso muqan rabto insha allah -->
+      <div id="result-screen" class="screen">
+        <h1>Quize result</h1>
+        <div class="result-info">
+          <p>
+            you scored <span id="final-score">0</span> out of<span
+              id="max-score"
+              > 5</span
+            >
+          </p>
+          <div id="result-massege">good boy</div>
+          <button id="restart-btn">restart quize</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
